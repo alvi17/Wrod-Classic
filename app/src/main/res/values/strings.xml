@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sign_in_failed">There was an issue with sign in, please try again later.</string>
+    <string name="app_name">Word Search Classic</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="menu_easy">Easy</string>
+    <string name="menu_medium">Medium</string>
+    <string name="menu_hard">Hard</string>
+    <string name="menu_advanced">Advanced</string>
+    <string name="sign_in">Sign in with G+</string>
+    <string name="results_return_menu">Return to Menu</string>
+    <string name="results_replay">Play Again</string>
+    <!-- Google Play -->
+
+    <string name="leaderboard_highest_scores__easy">CgkIgsr_j6ACEAIQAQ</string>
+    <string name="leaderboard_highest_scores__medium">CgkIgsr_j6ACEAIQAg</string>
+    <string name="leaderboard_highest_scores__hard">CgkIgsr_j6ACEAIQAw</string>
+    <string name="leaderboard_highest_scores__advanced">CggI9KDylmgQAhAE</string>
+
+
+    <string name="app_id">77342958850</string>
+    <string name="package_name">alvi17.onesearch</string>
+    <string name="leaderboard_leader_board_highest_score_easy_mode">CgkIgsr_j6ACEAIQAQ</string>
+    <string name="leaderboard_leaderboard_highest_score_medium_mode">CgkIgsr_j6ACEAIQAg</string>
+    <string name="leaderboard_leaderboard_highest_score_hard_mode">CgkIgsr_j6ACEAIQAw</string>
+
+    <!-- Google Analytics -->
+    <string name="ga_menu_screen">Main Menu</string>
+    <string name="ga_gameplay_screen">Gameplay</string>
+    <string name="ga_results_screen">Results</string>
+
+    <string name="ga_click_easy">Click Easy</string>
+    <string name="ga_click_medium">Click Medium</string>
+    <string name="ga_click_hard">Click Hard</string>
+    <string name="ga_click_pause">Click Pause</string>
+    <string name="ga_click_skip">Click Skip</string>
+    <string name="ga_click_leaderboard">Click Leaderboard</string>
+    <string name="ga_click_achievement">Click Achievement</string>
+    <string name="ga_click_replay">Click Play Again</string>
+    <string name="ga_click_return_to_menu">Click Return to Menu</string>
+
+</resources>

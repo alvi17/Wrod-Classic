@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="alvi17.onesearch.ui.MenuActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/top_bar"
+        android:background="@color/green"></FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/title_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <alvi17.onesearch.ui.components.GameBoldTextView
+                android:textSize="48sp"
+                android:text="WORD"
+                android:textColor="@color/green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <alvi17.onesearch.ui.components.GameBoldTextView
+                android:textSize="28sp"
+                android:text="SEARCH CLASSIC"
+                android:textColor="@color/blue"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/title_layout"
+            android:layout_marginTop="16dp"
+            android:id="@+id/button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
+
+
+            <alvi17.onesearch.ui.components.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/element_margin_separation"
+                android:text="@string/menu_easy"
+                android:id="@+id/bMenuEasy" />
+
+            <alvi17.onesearch.ui.components.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/element_margin_separation"
+                android:text="@string/menu_medium"
+                android:id="@+id/bMenuMedium" />
+
+            <alvi17.onesearch.ui.components.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/element_margin_separation"
+                android:text="@string/menu_hard"
+                android:id="@+id/bMenuHard" />
+<!--
+            <alvi17.onesearch.ui.components.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/element_margin_separation"
+                android:text="@string/menu_advanced"
+                android:id="@+id/bMenuAdvanced" />
+                -->
+
+            <com.google.android.gms.common.SignInButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/element_margin_separation"
+                android:visibility="gone"
+                android:id="@+id/bMenuSignIn" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="@dimen/bottom_bar"
+        android:background="@color/green"
+        android:id="@+id/frameLayout"></FrameLayout>
+
+</RelativeLayout>
